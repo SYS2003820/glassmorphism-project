@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cinematic Glassmorphism Login</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <!-- Curtain with Welcome Back and animated robot -->
+  <div class="curtain">
+  <h1>Welcome Back 'Sir LOGIN So we Can PLAY CODE Games</h1>
+  <img src="robot.svg" alt="Cute Robot" class="robot-svg" />
+</div>
+
+  <!-- Weather Widget -->
+  <div id="weather">
+    <i class="fa-solid fa-cloud-sun"></i>
+    <span id="temp"></span>°C
+    <span id="city"></span>
+  </div>
+
+  <!-- Particle Background -->
+  <div id="particles-js"></div>
+
+  <!-- Login Box -->
+  <div class="login-box">
+    <h2>LOGIN</h2>
+    <form>
+      <div class="user-box">
+        <input type="text" required />
+        <label>Username</label>
+      </div>
+      <div class="user-box">
+        <input type="password" required />
+        <label>Password</label>
+      </div>
+      <a href="#" class="login-btn">Submit</a>
+
+      <!-- Social Icons -->
+      <div class="social-login">
+        <a href="#"><i class="fab fa-google"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery.ripples/dist/jquery.ripples.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="weather.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
